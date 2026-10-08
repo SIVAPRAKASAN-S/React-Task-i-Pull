@@ -1,0 +1,125 @@
+REACT is the combinationn of javascript and html 
+
+REACT is the Frontend js library to develop the complex user interfaces
+
+REACT is based on component styled architecture 
+
+jsx --> javascript xml
+
+components are two types 
+	
+	Class component --> it is an old methode
+
+	functional component --> 
+what is component
+types of component
+differents between class and function components(famous interview question)
+
+
+
+npm create vite@latest --> is used to download latest packages.
+then enter y to allow acces 
+then crete project name 
+we choose which framework we use --> react
+we choose javacript + react compiler
+it can run in local server
+
+
+
+control+c to exit the server
+npm run dev --> restart the server
+
+
+class component 
+functional component
+
+
+
+fragment- <> </> when we use fragment we give more than one html code
+
+props - properties
+
+Props are used to pass data from a parent component to a child component.
+
+Props can be strings, numbers, arrays, objects, functions, or even other components.
+
+
+conditinal rendering 
+
+condition : true ? false
+
+Conditional rendering in React is the process of displaying different components or elements based on a condition.
+
+if...else → multiple/complex conditions
+? : → true or false choice
+&& → show something only when true
+
+
+when you create a component in react using pascal rule (FavoriteColor.jsx)
+
+
+React state-->
+
+State in React is a component's changeable data. We use useState() to create state, and changing the state causes React to update the UI.
+
+
+usestate 
+
+
+updating states objects
+
+task in react patients details : around 10 objects craetion
+
+form over 
+
+
+React Router 
+
+
+If you mean routing in React, routing lets a React app show different components for different URLs, such as /, /about, and /contact.
+
+
+Here, BrowserRouter enables routing, Routes contains your routes, Route maps a URL to a component, and Link navigates without reloading the whole page.
+
+
+
+Route Links
+
+BrowserRouter – Enables routing in your React application.
+
+Routes – Contains your route definitions.
+
+Route – Maps a URL path to a component.
+
+Link – Lets users navigate between routes.
+
+
+
+Remember: Use href with an <a> tag, but use to with React Router's <Link> component.
+example:<Link to="/about">About</Link>
+
+
+
+Route parameter
+
+
+Interview answer: A route parameter is a dynamic value in a URL that React Router reads using the useParams() hook.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
