@@ -15,6 +15,10 @@ import Home from './home'
 import About from './about'
 import Contact from './contact'
 import Student from './components/students'
+import ComponentA from './components/componentA'
+import ComponentB from './components/componentB'
+import ComponentD from './components/componentD'
+import componentC from './components/componentC'
 
 
 
@@ -30,7 +34,7 @@ function App() {
   {/* <FavoriteColor />
       <Form /> */}
   
-     <BrowserRouter>
+     {/* <BrowserRouter>
       <nav>
         <Link to="/">Home</Link> {" | "}
         <Link to="/about">About</Link> {" | "}
@@ -48,7 +52,7 @@ function App() {
         <Route path="/student/:id" element={<Student />} />
       </Routes>
      
-    </BrowserRouter>
+    </BrowserRouter> */}
   
   </>
 

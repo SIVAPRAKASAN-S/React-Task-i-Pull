@@ -106,6 +106,67 @@ Route parameter
 Interview answer: A route parameter is a dynamic value in a URL that React Router reads using the useParams() hook.
 
 
+useContext - react hook that allows us to share the value between multiple level of components without passing props through each level 
+
+
+PROVIDER COMPONENT
+
+1 . import {createContext} from 'react'
+2. export const MyContext = createContext();
+
+<MyContext.provider value = {value}>
+<child/>
+</MyContext.provider>
+
+
+
+CONSUMER COMPONENT
+
+1.import {useContext} from 'react'
+import {MyContext} from '.componentA'
+
+const value = useContext{MyContext}
+
+
+interview questions 
+
+1. What is react and why we use that 
+
+2. what is jsx in react
+
+3.what is virtual dom
+
+4.what is the diff btw function and class component
+
+5.what is diff btw props and state
+
+6.what is the purpose of key props in react list 
+ 
+7.what is props drilling and how will you avoid that
+
+8.what is react fragment why they used them
+
+9.what are three phase of useEffect dependence array 
+
+10.what is react router how does it prevent page reload 
+
+11.what are the key component uesd in react router
+
+12.how do you handle dynamic router and extract route parameters
+
+13.how do you update objects or array in useState
+
+14.how do you handle in multiple input fields in single useState
+
+15.where we use map() function react 
+
+16.what is react context API and what problem does it solve
+
+17.what are three core piece to implement context
+
+18.?
+
+
 
 
 
